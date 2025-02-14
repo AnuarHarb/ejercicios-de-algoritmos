@@ -1,4 +1,4 @@
-function piedraPapelTijeras() {
+function piedraPapelTijera() {
   const opciones = ["piedra", "papel", "tijeras"];
   const jugador = prompt("Elige una opción");
   const computadora = opciones[Math.floor(Math.random() * 3)];

@@ -25,6 +25,19 @@ function contadorDeVocales(palabra) {
   }
 }
 
+function esPalindromo(palabra) {
+  // Limpiar la palabra: quitar espacios, tildes y convertir a minúsculas
+  const textoLimpio = palabra
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]/g, "");
+
+  // Comparar el texto limpio con su reverso
+  const textoReverso = textoLimpio.split("").reverse().join("");
+  return textoLimpio === textoReverso;
+}
+
 // comentario
 // Ejecutar las funciones
 // piedraPapelTijeras();

@@ -25,6 +25,7 @@ function contadorDeVocales(palabra) {
   }
 }
 
+// comentario
 // Ejecutar las funciones
 // piedraPapelTijeras();
 // contadorDeVocales()

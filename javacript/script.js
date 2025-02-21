@@ -38,7 +38,9 @@ function esPalindromo(palabra) {
   return textoLimpio === textoReverso;
 }
 
-// comentario
-// Ejecutar las funciones
-// piedraPapelTijeras();
-// contadorDeVocales()
+function cambiarTexto() {
+  document.getElementById("titulo").innerText = "Texto cambiado";
+}
+
+const links = document.getElementsByTagName("a");
+console.log(links);

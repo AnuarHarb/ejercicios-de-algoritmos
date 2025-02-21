@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link href="contador.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <h1>Ejerciico de algoritmos</h1>
+      <div>
+        <a href="index.html">Home</a>
+        <a href="ppt.html">Piedra papel o tijeras</a>
+        <a href="contador.html">Contador de Vocales</a>
+        <a href="palindromo.html">Palíndromo</a>
+      </div>
+    </nav>
+
+    <section class="container">
+      <h1 class="title">Contador de Vocales</h1>
+      <p class="description">
+        Este algoritmo cuenta las vocales de la palabra o frase que escribas.
+      </p>
+
+      <div class="content">
+        <input id="wordInput" type="text" />
+        <h2 id="selectedWord">Escribe una palabra</h2>
+        <button id="activationButton">Contar las vocales</button>
+      </div>
+    </section>
+
+    <audio controls autoplay muted>
+      <source src="horse.ogg" type="audio/ogg" />
+      <source src="horse.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <script src="javacript/script.js"></script>
+    <script src="contador.js"></script>
+  </body>
+</html>
